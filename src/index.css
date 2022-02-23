@@ -1,13 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Sigmar One', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.button-center {
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-link {
+  position: absolute;
+  align-items: center;
+  z-index: 4;
+}
+
+.pokedex-background {
+  background-color: #f2f4f4;
+}
+
+.card {
+  box-shadow: 1px 1px 5px gray;
+  margin: 5px;
+}
+
+.cards-item {
+  display: flex;
+  padding: 15px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.card-box {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.cards-box {
+  width: 310px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.button-card {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: auto;
+}
+
+.cards-box Link:hover {
+  text-decoration: none;
+}
+
+.text-decoration {
+  text-decoration: none
+}
+
+.card-footer {
+  font-size: 10px ;
+  background-color: white;
+  border: solid;
+
+}
+
+.card-box img {
+  background-color: white;
+}
+
+.card-box h5 {
+  color: yellow;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.hidden-button {
+  visibility: hidden;
+}
+
+.search-box {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.button-box {
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.cards-box-pokedex {
+  padding-top: 30px;
+  width: 450px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.card-box-pokedex {
+  padding-top: 15px;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box-pokedex img {
+  background-color: white;
+  width: 180px;
+}
+
+.card-footer-pokedex {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px ;
+  background-color: white;
+  border: solid;
+}
+
+.name-pokedex {
+  color: yellow;
+  font-size: 25px;
+  padding-top: 15px;
 }
